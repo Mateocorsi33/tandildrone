@@ -40,7 +40,6 @@ h3{
     color: #fff;
     padding: 7px 50px;
     font-family: "BenchNine", sans-serif;
-    /*font-family: "Bellota Text", sans-serif;*/
     font-size: 14px;
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -53,7 +52,7 @@ h3{
 
 .quienes-somos{
     background-color: #ECECEC;
-    padding: 1rem 6% 8rem 6%;
+    padding: 1rem 6% 11rem 6%;
 }
 
 .quienes-somos h1{
@@ -83,13 +82,14 @@ p span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -6rem;
+    margin-top: -8rem;
     margin-bottom: 8rem;
 }
 
 .foto1, .foto2, .foto3 {
     position: absolute;
     transition: transform 0.3s;
+    border-radius: 3px;
 }
 
 .foto1 {
@@ -106,9 +106,8 @@ p span{
 
 .foto3 {
     width: 11.5rem;
-    height: 10rem;
     z-index: 3;
-    transform: translateY(6rem); /* Ajusta este valor según sea necesario */
+    transform: translateY(6rem);
 }
 .beneficios{
     padding: 0 6%;
