@@ -4,7 +4,7 @@ body{margin:0;}
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 600px;
     width: 100%;
     color: #fff;
     font-family: "Antonio", sans-serif;
@@ -17,14 +17,14 @@ body{margin:0;}
 }
 .menu{
     margin-top: 5px;
-    height: 2rem;
+    height: 1.8rem;
 }
 .titulos{
-    margin: 20% 10%;
+    margin: 20% 6%;
     text-transform: uppercase;
 }
 h1{
-    font-size: 3.2rem;
+    font-size: 3.7rem;
     font-weight: 700;
     line-height: 1;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
@@ -33,12 +33,12 @@ h1{
 h3{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     font-weight: 600;
-    font-size: .7rem;
+    font-size: 1rem;
 }
 .btn-consultar{
     background-color: #000;
     color: #fff;
-    padding: 7px 45px;
+    padding: 7px 50px;
     font-family: "BenchNine", sans-serif;
     /*font-family: "Bellota Text", sans-serif;*/
     font-size: 14px;
@@ -49,7 +49,7 @@ h3{
 
 .quienes-somos{
     background-color: #ECECEC;
-    padding: 1rem 10%;
+    padding: 1rem 6% 6rem 6%;
     
 }
 
@@ -61,11 +61,12 @@ h3{
     text-shadow: none;
     font-weight: 700;
     margin: 0;
-    padding: 2rem 0;
+    padding: 2rem 0 1.5rem 0;
 }
 
 .quienes-somos p{
     font-family: "Bellota Text", sans-serif;
+    font-size: 1.1rem;
 }
 
 p span{
