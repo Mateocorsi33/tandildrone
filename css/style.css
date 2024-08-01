@@ -40,7 +40,7 @@ h3{
     color: #fff;
     padding: 7px 50px;
     font-family: "BenchNine", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     border: none;
@@ -111,6 +111,21 @@ p span{
 }
 .beneficios{
     padding: 0 6%;
+    margin: 3rem 0;
+}
+.ben-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.ben-div div{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.ben-div img{
+    width: 8rem;
+    height: 8rem;
 }
 .beneficios h1{
     color: #000;
@@ -119,8 +134,13 @@ p span{
     font-family: "Antonio", sans-serif;
     text-shadow: none;
     font-weight: 700;
+    margin-bottom: 0;
 }
 .beneficios p{
     font-family: "Bellota Text", sans-serif;
     font-size: 1.1rem;
+}
+.der{
+    text-align: end;
+    text-align: right;
 }
