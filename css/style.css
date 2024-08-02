@@ -55,7 +55,10 @@ h3{
     padding: 1rem 6% 11rem 6%;
 }
 
-.quienes-somos, .galeria h1{
+.quienes-somos h1,
+.galeria h1, 
+.section-white h1,
+.section-gray h1{
     color: #000;
     text-transform: uppercase;
     font-size: 2rem;
@@ -66,13 +69,16 @@ h3{
     padding: 2rem 0 1.5rem 0;
 }
 
-.quienes-somos p{
+.quienes-somos p,
+.section-white p{
     font-family: "Bellota Text", sans-serif;
     font-size: 1.1rem;
 }
 
 p span{
     font-weight: bold;
+    font-family: "Bellota Text", sans-serif;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -144,36 +150,29 @@ p span{
     text-align: end;
     text-align: right;
 }
-.galeria{
+.section-gray{
     background-color: #ECECEC;
     padding: 1rem 6%;
 }
-
-.carrusel{
+.section-white{
+    padding: 1rem 6%;
+}
+.swiper {
+    width: 100%;
+    height: 400px;
+    margin: 1rem;
+  }
+  
+  .swiper-slide {
     display: flex;
-    flex-wrap: nowrap;
-    margin: 2rem 0;
-    overflow-x: auto; /* Permitir el desplazamiento horizontal */
-    scroll-snap-type: x mandatory; /* Añadir scroll snap para un desplazamiento más fluido */
-    -webkit-overflow-scrolling: touch;
-}
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: #fff;
+  }
 
-.elemento{
-    flex: 0 0 60%; /* Ajustar el tamaño de cada elemento para ocupar el 80% del ancho del carrusel */
-    margin: 0 10px;
-    background-color: red;
-    border-radius: 3px;
-    width: 60%;
-    height: 300px;
-    scroll-snap-align: center;
-}
-.elemento img {
-    width: 100%; /* La imagen ocupa el ancho completo del elemento */
-    height: 100%; /* La imagen ocupa la altura completa del elemento */
-    object-fit: cover; /* Ajustar la imagen para que cubra todo el elemento */
-    border-radius: 3px; /* Mantener el borde redondeado para la imagen */
-    
-}
-.carrusel::-webkit-scrollbar {
-    display: none; /* Ocultar la barra de desplazamiento en Webkit (Chrome, Safari) */
-}
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+  }
