@@ -19,3 +19,21 @@ const swiper = new Swiper('.swiper', {
     draggable: true,
   },
 });
+
+document.getElementById("menu").addEventListener("click", toggleMenu);
+document.getElementById("close-menu").addEventListener("click", closeMenu);
+
+function toggleMenu() {
+    const menu = document.getElementById("ver-menu");
+    if (menu.classList.contains('abierto')) {
+        menu.classList.remove('abierto');
+    } else {
+        menu.classList.add('abierto');
+    }
+    console.log("toggleMenu");
+}
+
+function closeMenu() {
+    document.getElementById("ver-menu").classList.remove('abierto');
+    console.log("closeMenu");
+}
