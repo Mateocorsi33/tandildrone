@@ -51,3 +51,10 @@ function closeMenu() {
     console.log("closeMenu");
 }
 
+
+document.getElementById("enviar").addEventListener("click", enviarForm);
+
+function enviarForm(){
+  const btn = document.getElementById("enviar");
+  btn.innerHTML = "Enviando..";
+}
