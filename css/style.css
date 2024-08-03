@@ -15,6 +15,9 @@ body{margin:0;}
     height: 2.5rem;
     padding: 1.5rem;
 }
+a{
+    text-decoration: none;
+}
 #menu{
     margin-top: 5px;
     height: 1.8rem;
@@ -276,7 +279,7 @@ p span, label{
   #ver-menu {
     display: none;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 88%;
@@ -284,10 +287,14 @@ p span, label{
     opacity: 97%;
     padding: 1.5rem 6% 1rem 6%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
 }
 
 #ver-menu.abierto {
     display: flex;
+    transform: translateY(0);
 }
 
 #ver-menu ul {
@@ -306,13 +313,14 @@ p span, label{
     color: #fff;
 }
 
-#ver-menu img{
+#ver-menu img {
     width: 2.5rem;
 }
 
-.close{
-    display:flex;
+.close {
+    display: flex;
     justify-content: end;
 }
+
 
   

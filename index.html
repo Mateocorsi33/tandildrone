@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=BenchNine:wght@300;400;700&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header id="home" class="header">
         <div class="navbar">
             <img class="logo" src="images/logo.png" alt="Logo - Tandil Drones">
             <img id="menu" src="images/menu.png" alt="menu">
@@ -22,22 +22,22 @@
                     <img id="close-menu" src="images/close.png" alt="close">
                 </div>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Quienes somos</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about-us">Quienes somos</a></li>
+                    <li><a href="#galery">Galeria</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </div>
         <div class="titulos">
             <h1>Fotografía y video con dron de alta calidad</h1>
             <h3>Transforma tu visión en realidad con nuestras imágenes aéreas y ediciones profesionales</h3>
-            <button class="btn-consultar">Consultar</button>
+            <a href="#contact"><button class="btn-consultar">Consultar</button></a>
         </div>
     </header>
     <main>
-        <img class="flotante" src="images/whatsapp-flotante.png" alt="whatsapp">
-        <section class="quienes-somos">
+        <a href="https://walink.co/fa3ab2"><img class="flotante" src="images/whatsapp-flotante.png" alt="whatsapp"></a>
+        <section id="about-us" class="quienes-somos">
             <h1>Quienes Somos</h1>
             <p>Bienvenido a <span>Tandil Drones</span>, tu socio estratégico en servicios de grabación y fotografía aérea con drones, ubicados en la ciudad de <span>Tandil, Argentina</span>. Nos especializamos en capturar la esencia de proyectos inmobiliarios, bienes raíces, eventos, paisajismo y cualquier solicitud personalizada que usted requiera. Ofrecemos una amplia gama de paquetes adaptados a sus necesidades específicas, asegurando siempre una calidad superior y una precisión inigualable en cada proyecto. En <span>Tandil Drones</span>, nos comprometemos a transformar su visión en imágenes impactantes que marquen la diferencia.</p>
         </section>
@@ -62,7 +62,7 @@
                 </div> 
             </div>
         </section>
-        <section class="section-gray">
+        <section id="galery" class="section-gray">
             <h1>Galeria</h1>
             <div class="swiper">
                 <div class="swiper-wrapper">
@@ -80,7 +80,7 @@
                 <div class="swiper-scrollbar"></div>
               </div>
         </section>
-        <section class="section-white">
+        <section id="contact" class="section-white">
             <h1>Contacto</h1>
             <p><span>Email: Tandildrones@gmail.com</span></p>
             <p>¿Tienes alguna consulta o necesitas un presupuesto? ¡Estamos aquí para ayudarte! No dudes en ponerte en contacto con nosotros. En Tandil Drones estamos listos para responder a tus preguntas y ofrecerte la mejor solución para tus necesidades de grabación y fotografía aérea. ¡Esperamos tu mensaje! </p>
@@ -104,15 +104,15 @@
     <footer>
         <h1>Tandil drones</h1>
         <nav>
-            <ul>Inicio</ul>
-            <ul>Quienes somos</ul>
-            <ul>Galeria</ul>
-            <ul>Contacto</ul>
+            <a href="#home"><ul>Inicio</ul></a>
+            <a href="#about-us"><ul>Quienes somos</ul></a>
+            <a href="#galery"><ul>Galeria</ul></a>
+            <a href="#contact"><ul>Contacto</ul></a>
         </nav>
         <div>
-            <img src="images/whatsapp.png" alt="Whatsapp">
-            <img src="images/instagram.png" alt="Instagram">
-            <img src="images/email.png" alt="Email">
+            <a href="https://walink.co/fa3ab2"><img src="images/whatsapp.png" alt="Whatsapp"></a>
+            <a href="https://www.instagram.com/dron.tandil"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="mailto:tandildrones@gmail.com"><img src="images/email.png" alt="Email"></a>
         </div>
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
