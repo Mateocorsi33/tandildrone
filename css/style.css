@@ -163,7 +163,7 @@ p span, label{
 /* Estilos para el contenedor del carrusel */
 .swiper {
     width: 100%;
-    height: 400px;
+    height: auto;
     margin: 2rem 0 3rem 0;
   }
   
@@ -177,7 +177,6 @@ p span, label{
   /* Estilos para las imágenes */
   .swiper-slide img {
     width: 100%;
-    height: 100%;
     object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
   }
 
@@ -226,7 +225,7 @@ p span, label{
   footer h1{
     color: #fff;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Antonio", sans-serif;
     text-shadow: none;
     font-weight: 700;
